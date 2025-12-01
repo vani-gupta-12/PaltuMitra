@@ -1,0 +1,89 @@
+<section class="featured-animals">
+    <h2>Featured Animals for Adoption</h2>
+    <div class="animal-grid">
+        <div class="animal-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHeGQ5rcuSp1rWZpa_s2oa2hNscLhBZidU0R4h91KPtVpgyKHG" alt="Buddy the Labrador">
+            <h3>Buddy</h3>
+            <p>Breed: Labrador Retriever</p>
+            <a href="#" class="btn-small">View Details</a>
+        </div>
+        <div class="animal-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHeGQ5rcuSp1rWZpa_s2oa2hNscLhBZidU0R4h91KPtVpgyKHG" alt="Max the German Shepherd">
+            <h3>Max</h3>
+            <p>Breed: German Shepherd</p>
+            <a href="#" class="btn-small">View Details</a>
+        </div>
+        <div class="animal-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxH7OhiRStbOxBUPyyBq4hsnP1IlgG4cF2qS6D0qHJOW5cmXYl" alt="Rex the Golden Retriever">
+            <h3>Rex</h3>
+            <p>Breed: Golden Retriever</p>
+            <a href="#" class="btn-small">View Details</a>
+        </div>
+        <div class="animal-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSrqKxhlXfxyEwiZ3JZsYF7amXEP3NuVuW4MQSNdZGgYX_JLaO" alt="Bella the Poodle">
+            <h3>Bella</h3>
+            <p>Breed: Poodle</p>
+            <a href="#" class="btn-small">View Details</a>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Featured Animals Section Styling */
+    .featured-animals {
+        padding: 40px 20px;
+        text-align: center;
+        background-color: #f4f4f4;
+        margin-top: 20px;
+    }
+
+    .featured-animals h2 {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+    }
+
+    .animal-grid {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px; /* Space between cards */
+    }
+
+    .animal-card {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        width: 220px;
+    }
+
+    .animal-card img {
+        width: 100%;
+        border-radius: 10px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .animal-card h3 {
+        margin: 10px 0;
+    }
+
+    .animal-card p {
+        color: #555;
+    }
+
+    .animal-card .btn-small {
+        display: inline-block;
+        background-color: #ff6600;
+        color: white;
+        padding: 8px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .animal-card .btn-small:hover {
+        background-color: #e65c00;
+    }
+</style>
