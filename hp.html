@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to PaltuMitra</title>
+
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #fff;
+            position: relative;
+        }
+
+        /* Background image with reduced opacity */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://ideogram.ai/assets/progressive-image/balanced/response/RbD_50YtQICRsZHezGpaJw') no-repeat center center fixed;
+            background-size: cover;
+            opacity: 0.5; /* Adjusts opacity of the background image */
+            z-index: -1;
+        }
+
+        /* Header styling */
+        header {
+            background-color: rgba(255, 102, 0, 0.9);
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo h1 {
+            font-size: 2rem;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin-left: 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Welcome Section */
+        .welcome-banner {
+            text-align: center;
+            padding: 40px 20px;
+            color: black; /* Changed text color to black */
+            background-color: transparent; /* Removed background color */
+        }
+
+        .welcome-banner h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .welcome-banner p {
+            font-size: 1.2rem;
+        }
+
+        /* Buttons Section */
+        .buttons-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+            gap: 20px;
+        }
+
+        .buttons-section button {
+            padding: 15px 30px;
+            font-size: 1.5rem;
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 250px;
+        }
+
+        .buttons-section button:hover {
+            background-color: #e65c00;
+        }
+
+        /* Footer */
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>PaltuMitra</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/animal_listing.html#success">Animals</a></li>
+                <li><a href="http://127.0.0.1:5500/adopt.html">Adopt</a></li>
+                <li><a href="http://127.0.0.1:5500/success_stories.html">Success Stories</a></li>
+                <li><a href="http://127.0.0.1:5500/donate.html">Donate</a></li>
+                <li><a href="http://127.0.0.1:5500/volunteer.html">Volunteer</a></li>
+                <li><a href="http://127.0.0.1:5500/educational.html">Resources</a></li>
+                <li><a href="http://127.0.0.1:5500/contact.html">Contact Us</a></li>
+                <li><a href="http://127.0.0.1:5500/support.html">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="welcome-banner">
+        <h2>Welcome to PaltuMitra!</h2>
+        <p>Our mission is to connect loving homes with deserving pets. Together, we can make a difference in the lives of animals in need.</p>
+    </section>
+
+    <!-- Buttons for User Profile and Shelter Management -->
+    <div class="buttons-section">
+        <button onclick="window.location.href='http://127.0.0.1:5500/user_profile.html'">User Profile</button>
+        <button onclick="window.location.href='http://127.0.0.1:5500/shelter_management.html'">Shelter Management</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 PaltuMitra. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
